@@ -1,1 +1,37 @@
 
+zh-CN:
+  surveys_controller:
+    create: 成功创建调查问卷
+    update: 成功更新调查问卷
+  attempts_controller:
+    create: "Congratulations, you have responded to Survey."
+  surveys: 调查问卷
+  survey_details: 调查问卷详细
+  questions: 问题
+  activerecord:
+    models:
+      survey:
+        survey: 调查问卷
+        other: 其他
+    attributes:
+      survey:
+        name: 标题
+        finished: Finished
+        description: Short description
+        active: "Activated?"
+        attempts_number: Number of Maximum Attempts
+        questions_attributes: Questions
+      question:
+        text: Question Text
+        options_attributes: Options
+      options:
+        text: Option Text
+        correct: Correct
+      attempt:
+        answers_attributes: Answers
+        survey: Survey
+      answer:
+        attempt: Attempt
+        question: Question
+        option: Option
+        correct: Answer Correct?
